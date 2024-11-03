@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish E-Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <h1 class="logo">Stylish E-Shop</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="#cart">Cart</a></li>
+        </ul>
+        <input type="text" placeholder="Search for products..." id="search-bar">
+    </nav>
+
+    <!-- Product Categories -->
+    <section class="categories">
+        <h2>Explore Categories</h2>
+        <div class="category-list">
+            <div class="category-card">Electronics</div>
+            <div class="category-card">Fashion</div>
+            <div class="category-card">Home & Kitchen</div>
+            <div class="category-card">Books</div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products">
+        <h2>Popular Products</h2>
+        <div class="product-list" id="product-list">
+            <!-- JavaScript will dynamically populate products here -->
+        </div>
+    </section>
+
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
